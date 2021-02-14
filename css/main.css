@@ -94,7 +94,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -646,6 +646,8 @@ img {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-contacts__link:hover, .header-contacts__link:focus {
@@ -1841,7 +1843,7 @@ img {
   display: block;
   position: absolute;
   top: 0;
-  left: calc(100% + 10px);
+  right: -10px;
   width: 1px;
   height: 22px;
   background-color: rgba(33, 33, 33, 0.2);
