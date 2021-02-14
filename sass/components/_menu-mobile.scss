@@ -22,6 +22,7 @@
   @media screen and (min-width: $tablet) {
     display: none;
   }
+  overflow-y: scroll;
 }
 
 .btn-menu.is-open .btn-menu__burger {
