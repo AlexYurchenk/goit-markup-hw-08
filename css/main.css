@@ -646,8 +646,13 @@ img {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  padding-top: 32px;
-  padding-bottom: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+  .header-contacts__link {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
 }
 
 .header-contacts__link:hover, .header-contacts__link:focus {
