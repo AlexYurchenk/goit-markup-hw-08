@@ -1687,7 +1687,6 @@ body.modal-open {
 
 .btn-menu {
   z-index: 9999999999;
-  position: fixed;
   top: 10px;
   right: 10px;
   padding: 0;
@@ -1703,6 +1702,7 @@ body.modal-open {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: scroll;
 }
 
 .btn-menu:hover, .btn-menu:focus {
