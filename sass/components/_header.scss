@@ -87,9 +87,10 @@
     display: flex;
     align-items: center;
     @include transition(color);
-    padding-top: 32px;
-    padding-bottom: 32px;
-
+    @media screen and (min-width: $laptop) {
+      padding-bottom: 32px;
+      padding-top: 32px;
+    }
     &:hover,
     &:focus {
       color: $accent-color;
