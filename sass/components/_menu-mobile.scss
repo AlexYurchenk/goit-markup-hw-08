@@ -23,7 +23,9 @@
   }
   overflow-y: scroll;
 }
-
+.btn-menu.is-open {
+  position: fixed;
+}
 .btn-menu.is-open .btn-menu__burger {
   display: none;
 }
