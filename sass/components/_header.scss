@@ -87,6 +87,8 @@
     display: flex;
     align-items: center;
     @include transition(color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     &:hover,
     &:focus {
