@@ -1,0 +1,27 @@
+.logo {
+  font-family: $second-font-family;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  &__text {
+    color: $accent-color;
+  }
+
+  &__text--dark {
+    color: $primary-title;
+  }
+
+  @media screen and (min-width: $laptop) {
+    font-size: 26px;
+  }
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.logo__text--white {
+  color: $second-title;
+}
